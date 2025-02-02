@@ -1,0 +1,70 @@
+
+/* Intro Section */
+#intro {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+}
+
+/* Abhi's Photo */
+#intro1 {
+    height: 240px;
+    width: 210px;
+    background-image: url("image/abhi_photo.jpg");
+    background-size: cover;
+    background-position: center; /* Center the image */
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+/* Box Container */
+.Box {
+    display: flex;
+    flex-direction: column; /* Stacks the boxes vertically */
+    justify-content: center;
+    background-color: yellow;
+    align-items: center;
+    margin-top: 30px;
+    gap: 70px; /* Space between boxes */
+}
+
+/* Individual Boxes */
+#box1, #box2, #box3, #box4 {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* Box Images */
+#box1 {
+    background-image: url("image/linkedin.png");
+}
+#box2 {
+    background-image: url("image/github.png");
+}
+#box3 {
+    background-image: url("image/call.png");
+}
+#box4 {
+    background-image: url("image/emailok.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
